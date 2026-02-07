@@ -7,7 +7,7 @@ function ProductCard({ name, price, inStock, image }) {
           <h5 className="card-title">{name}</h5>
           <p className="card-text">{price.toLocaleString()}</p>
           <a href="#" className="btn btn-primary">
-            {inStock ? "Buy Now" : "Sold Out"}
+            {inStock ? "Cost Now" : "Sold Out"}
           </a>
         </div>
       </div>
