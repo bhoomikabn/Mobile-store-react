@@ -4,7 +4,7 @@ import ProductCard from "./ProductCards";
 function Products() {
   return (
     <div className="container my-4">
-      <h2 className="text-center md-4">Available mobile phones</h2>
+      <h2 className="text-center md-4">Availibility mobile phones</h2>
       <div className="row g-4">
         {mobiles.map((mobile) => (
           <ProductCard
