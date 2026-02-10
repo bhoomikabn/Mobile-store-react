@@ -4,6 +4,7 @@ import Main from "./Components/Main";
 import Navbar from "./Components/Navbar";
 import ProductCard from "./Components/ProductCards";
 import Products from "./Components/Products";
+import Todo from "./Components/Todo,jsx";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Products />
       
       <Footer />
+      <Todo/>
     </>
   );
 }
